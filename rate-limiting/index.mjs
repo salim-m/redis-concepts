@@ -6,7 +6,7 @@ const app = express();
 // config: 10 request per minute
 const cache = {
   ttl: 60,
-  limit: 20,
+  limit: 10,
 };
 
 const getCacheKey = (ipAddress) => `rate-limiter:${ipAddress}`;
