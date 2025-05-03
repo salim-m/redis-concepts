@@ -1,0 +1,25 @@
+{
+  "name": "redis-concepts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salim-m/redis-concepts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/salim-m/redis-concepts/issues"
+  },
+  "homepage": "https://github.com/salim-m/redis-concepts#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "ioredis": "^5.6.1"
+  }
+}
